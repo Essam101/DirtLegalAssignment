@@ -1,0 +1,139 @@
+@DirtLegalAssignment_HostAddress = http://localhost:5076
+
+
+
+GET {{DirtLegalAssignment_HostAddress}}/GetOrdersAsync/
+Accept: application/json
+###
+
+POST {{DirtLegalAssignment_HostAddress}}/CreateOrUpdateAsync/
+Accept: application/json
+Content-Type: application/json
+
+{
+                "orderId": 733381260,
+                "orderNumber": "TTESSAM777",
+                "orderKey": "95dc6e5faf294797b547b0c03e116f4a",
+                "orderDate": "2024-04-22T18:00:09.173000-07:00",
+                "createDate": "2024-04-22T11:00:09.570000-07:00",
+                "modifyDate": "2024-04-22T11:00:10.343000-07:00",
+                "paymentDate": null,
+                "shipByDate": null,
+                "orderStatus": "awaiting_shipment",
+                "customerId": 350320861,
+                "customerUsername": "edwardo@dirtlegal.com",
+                "customerEmail": "edwardo@dirtlegal.com",
+                "billTo": { 
+                    "name": "ESSAM TEST",
+                    "company": null,
+                    "street1": "666 nw 66th st",
+                    "street2": null,
+                    "street3": null,
+                    "city": "PLANTATION",
+                    "state": "FL",
+                    "postalCode": "33334",
+                    "country": "US",
+                    "phone": "999-999-9999",
+                    "residential": null,
+                    "addressVerified": null
+                },
+                "shipTo": {
+                    "name": "ESSAM TEST",
+                    "company": null,
+                    "street1": "666 nw 66th st",
+                    "street2": "",
+                    "street3": null,
+                    "city": "PLANTATION",
+                    "state": "FL",
+                    "postalCode": "33334-4919",
+                    "country": "US",
+                    "phone": "999-999-9999",
+                    "residential": false,
+                    "addressVerified": "Address validated successfully"
+                },
+                "items": [
+                    {
+                        "orderItemId": 1353008014,
+                        "lineItemKey": null,
+                        "sku": "SQ8345601",
+                        "name": "Temporary License Plate and Registration",
+                        "imageUrl": null,
+                        "weight": {
+                            "value": 4,
+                            "units": "ounces",
+                            "WeightUnits": 1
+                        },
+                        "quantity": 1,
+                        "unitPrice": 249.99,
+                        "taxAmount": null,
+                        "shippingAmount": null,
+                        "warehouseLocation": null,
+                        "options": [],
+                        "productId": 36263338,
+                        "fulfillmentSku": null,
+                        "adjustment": false,
+                        "upc": null,
+                        "createDate": "2024-04-22T11:00:09.397000-07:00",
+                        "modifyDate": "2024-04-22T11:00:09.397000-07:00"
+                    }
+                ],
+                "orderTotal": 249.99,
+                "amountPaid": 0,
+                "taxAmount": 0,
+                "shippingAmount": 0,
+                "customerNotes": "Driver's Name\nGARY TERRY\n\nVIN/SN (Serial Number)\n3HAEUMML0RL761127\n\nVehicle Year\n2024\n\nVehicle Make\nINTERNATIONAL\n\nVehicle Weight\n13 ton\n\nVehicle Model\nMV REGULAR \n\nBody Type\nTruck",
+                "internalNotes": null,
+                "gift": false,
+                "giftMessage": null,
+                "paymentMethod": null,
+                "requestedShippingService": null,
+                "carrierCode": "stamps_com",
+                "serviceCode": "usps_first_class_mail",
+                "packageCode": "package",
+                "confirmation": "none",
+                "shipDate": "2024-04-22",
+                "holdUntilDate": null,
+                "weight": {
+                    "value": 4,
+                    "units": "ounces",
+                    "WeightUnits": 1
+                },
+                "dimensions": null,
+                "insuranceOptions": {
+                    "provider": null,
+                    "insureShipment": false,
+                    "insuredValue": 0
+                },
+                "internationalOptions": {
+                    "contents": null,
+                    "customsItems": null,
+                    "nonDelivery": null
+                },
+                "advancedOptions": {
+                    "warehouseId": 905501,
+                    "nonMachinable": false,
+                    "saturdayDelivery": false,
+                    "containsAlcohol": false,
+                    "mergedOrSplit": false,
+                    "mergedIds": [],
+                    "parentId": null,
+                    "storeId": 142953,
+                    "customField1": null,
+                    "customField2": null,
+                    "customField3": null,
+                    "source": null,
+                    "billToParty": null,
+                    "billToAccount": null,
+                    "billToPostalCode": null,
+                    "billToCountryCode": null,
+                    "billToMyOtherAccount": 116953
+                },
+                "tagIds": null,
+                "userId": null,
+                "externallyFulfilled": false,
+                "externallyFulfilledBy": null,
+                "externallyFulfilledById": null,
+                "externallyFulfilledByName": null,
+                "labelMessages": null
+}
+###
